@@ -3,12 +3,20 @@
     {
       "id" : 1,
       "category"  : "cat-a",
-      "scope": "api-a.read, api-b.read, api-c.full"
+      "scope-array": [
+	  {"scope"  : "api-a.read"},
+	  {"scope"  : "api-b.read"},
+	  {"scope"  : "api-c.full"}
+	  ]
     },
-    {
+	{
       "id" : 2,
       "category"  : "cat-b",
-      "scope": "api-a.read, api-b.read, api-c.read"
+      "scope-array": [
+	  {"scope"  : "api-a.read"},
+	  {"scope"  : "api-b.read"},
+	  {"scope"  : "api-c.read"}
+	  ]
     }
   ]
 }
