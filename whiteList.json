@@ -1,10 +1,12 @@
 {
   "whiteList": [
     {
+      "id" : 1,
       "category"  : "cat-a",
       "scope": "api-a.read, api-b.read, api-c.full"
     },
     {
+      "id" : 2,
       "category"  : "cat-b",
       "scope": "api-a.read, api-b.read, api-c.read"
     },
